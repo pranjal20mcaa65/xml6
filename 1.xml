@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="1.css"?>
+<!DOCTYPE car_catalog SYSTEM "1.dtd">
+<!-- <!DOCTYPE car_catalog SYSTEM "1.dtd" [
+    <!ENTITY c "Chevrolet">
+    <!ENTITY f "Ford">
+    <!ENTITY d "Dodge">
+    <!ENTITY h "Honda">
+    <!ENTITY n "Nisson">
+    <!ENTITY t "Toyota">
+]> -->
+<car_catalog>
+    <car>
+        <make>&c;</make>
+        <model>GT</model>
+        <year>2019</year>
+        <color>black</color>
+        <engine>
+            <number_of_cylinders>4</number_of_cylinders>
+            <fuel_system>Petrol</fuel_system>
+        </engine>
+        <number_of_doors>5</number_of_doors>
+        <transmission_type>Manual</transmission_type>
+
+        <accessories radio="yes" air_conditioning="no" power_windows="no" power_steering="yes" power_brakes="yes" ></accessories>
+
+    </car>
+
+ 
+</car_catalog>
