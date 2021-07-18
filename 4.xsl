@@ -6,7 +6,7 @@
 			<body>
 				<h2>Employee</h2>
 				<table border="1" cellpadding="10">
-					<tr bgcolor="#9acd32">
+					<tr bgcolor="red">
 						<th>ENO</th>
 						<th>First Name</th>
 						<th>Last Name</th>
@@ -33,11 +33,12 @@
 									<xsl:value-of select="firstname" />
 								</td>
 								<td>
-									<xsl:value-of select="lastname" />
-								</td>
-								<td>
 									<xsl:value-of select="middlename" />
 								</td>
+								<td>
+									<xsl:value-of select="lastname" />
+								</td>
+								
 								<td>
 									<xsl:value-of select="fathername" />
 								</td>
